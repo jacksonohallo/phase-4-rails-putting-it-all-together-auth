@@ -13,5 +13,6 @@ post '/login', to: 'sessions#create'
 
 #DELETE /logout
 
-delete '/logout' to: 'sessions#destroy'
+delete '/logout', to: 'sessions#destroy'
 end
+
