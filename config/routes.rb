@@ -14,5 +14,12 @@ post '/login', to: 'sessions#create'
 #DELETE /logout
 
 delete '/logout', to: 'sessions#destroy'
+
+
+#GET /recipes 
+
+get '/recipes', to: 'rescipes#index'
+
+
 end
 
